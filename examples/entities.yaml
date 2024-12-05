@@ -39,3 +39,17 @@ spec:
     message ExampleMessage {
       string example = 1;
     };
+---
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-go
+  description: The Go programming language repository.
+  annotations:
+    github.com/project-slug: golang/go
+spec:
+  type: library
+  owner: guests
+  lifecycle: production
+  system: examples
