@@ -4016,6 +4016,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage/plugin-catalog-backend-module-github@npm:^0.7.7":
+  version: 0.7.7
+  resolution: "@backstage/plugin-catalog-backend-module-github@npm:0.7.7"
+  dependencies:
+    "@backstage/backend-common": "npm:^0.25.0"
+    "@backstage/backend-plugin-api": "npm:^1.0.2"
+    "@backstage/catalog-client": "npm:^1.8.0"
+    "@backstage/catalog-model": "npm:^1.7.1"
+    "@backstage/config": "npm:^1.3.0"
+    "@backstage/integration": "npm:^1.15.2"
+    "@backstage/plugin-catalog-backend": "npm:^1.28.0"
+    "@backstage/plugin-catalog-common": "npm:^1.1.1"
+    "@backstage/plugin-catalog-node": "npm:^1.14.0"
+    "@backstage/plugin-events-node": "npm:^0.4.5"
+    "@octokit/graphql": "npm:^5.0.0"
+    "@octokit/rest": "npm:^19.0.3"
+    git-url-parse: "npm:^15.0.0"
+    lodash: "npm:^4.17.21"
+    minimatch: "npm:^9.0.0"
+    node-fetch: "npm:^2.7.0"
+    uuid: "npm:^11.0.0"
+  checksum: 10c0/475cfb09fa230e9125686bbc823326fca1f4da5698128eee8654a8c96be590ee166d7febd23c34b68142d4792670f35c853c4c851129b1d3c874d470dad9a0f0
+  languageName: node
+  linkType: hard
+
 "@backstage/plugin-catalog-backend-module-logs@npm:^0.1.4":
   version: 0.1.4
   resolution: "@backstage/plugin-catalog-backend-module-logs@npm:0.1.4"
@@ -9726,20 +9751,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sharing-fish/sfst@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@sharing-fish/sfst@npm:0.1.0"
+"@sharing-fish/sfst@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@sharing-fish/sfst@npm:0.0.5"
   dependencies:
     "@backstage/core-components": "npm:^0.16.1"
     "@backstage/core-plugin-api": "npm:^1.10.1"
+    "@backstage/plugin-catalog-react": "npm:^1.14.2"
     "@backstage/theme": "npm:^0.6.2"
     "@material-ui/core": "npm:^4.9.13"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:^4.0.0-alpha.61"
+    react-router-dom: "npm:^7.0.2"
     react-use: "npm:^17.2.4"
+    text-encoding: "npm:^0.7.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/9761c15b934f6d508731a55ac937f5744c17205df05693abf53dd84f6552b4a4617eefd5caaea709e8ff2adc64bf726ffc993cad7d57091f56b7ebd5b62dccf3
+  checksum: 10c0/c45cb55886f55dd59ece8b9a9b237602a340f704f0e094f8d0cb69382351a2082543ad49744736bdd5b19690a7bc3059fba64079a5b6eb1b91832b6f8b619e2b
   languageName: node
   linkType: hard
 
@@ -11818,6 +11846,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/cookie@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@types/cookie@npm:0.6.0"
+  checksum: 10c0/5b326bd0188120fb32c0be086b141b1481fec9941b76ad537f9110e10d61ee2636beac145463319c71e4be67a17e85b81ca9e13ceb6e3bb63b93d16824d6c149
+  languageName: node
+  linkType: hard
+
 "@types/cors@npm:^2.8.6":
   version: 2.8.17
   resolution: "@types/cors@npm:2.8.17"
@@ -13435,7 +13470,7 @@ __metadata:
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@playwright/test": "npm:^1.32.3"
-    "@sharing-fish/sfst": "npm:^0.1.0"
+    "@sharing-fish/sfst": "npm:^0.0.5"
     "@testing-library/dom": "npm:^9.0.0"
     "@testing-library/jest-dom": "npm:^6.0.0"
     "@testing-library/react": "npm:^14.0.0"
@@ -15534,6 +15569,13 @@ __metadata:
   version: 0.7.2
   resolution: "cookie@npm:0.7.2"
   checksum: 10c0/9596e8ccdbf1a3a88ae02cf5ee80c1c50959423e1022e4e60b91dd87c622af1da309253d8abdb258fb5e3eacb4f08e579dc58b4897b8087574eee0fd35dfa5d2
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "cookie@npm:1.0.2"
+  checksum: 10c0/fd25fe79e8fbcfcaf6aa61cd081c55d144eeeba755206c058682257cb38c4bd6795c6620de3f064c740695bb65b7949ebb1db7a95e4636efb8357a335ad3f54b
   languageName: node
   linkType: hard
 
@@ -27204,6 +27246,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "react-router-dom@npm:7.0.2"
+  dependencies:
+    react-router: "npm:7.0.2"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 10c0/eb6fe524792f6cf645872c15ed1beb6aeb778c7c5ebcf6c1d4ccf2bdab7a969313b3fc3b4ec6bc4516bbc91b238f0ef651d9ad2551b2aa9ea54b01653dcd1c98
+  languageName: node
+  linkType: hard
+
 "react-router@npm:6.28.0, react-router@npm:^6.3.0":
   version: 6.28.0
   resolution: "react-router@npm:6.28.0"
@@ -27212,6 +27266,24 @@ __metadata:
   peerDependencies:
     react: ">=16.8"
   checksum: 10c0/b435510de78fd882bf6ca9800a73cd90cee418bd1d19efd91b8dcaebde36929bbb589e25d9f7eec24ceb84255e8d538bc1fe54e6ddb5c43c32798e2b720fa76d
+  languageName: node
+  linkType: hard
+
+"react-router@npm:7.0.2":
+  version: 7.0.2
+  resolution: "react-router@npm:7.0.2"
+  dependencies:
+    "@types/cookie": "npm:^0.6.0"
+    cookie: "npm:^1.0.1"
+    set-cookie-parser: "npm:^2.6.0"
+    turbo-stream: "npm:2.4.0"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10c0/f6c04939218a3d7f2b03b215c2299eab4dbb0dea4a16e0acfd8bf181ec69ff42d66abdba10a25cc3297c514f052a0d03bfb80431225eb763bb27e4e5b0b4a106
   languageName: node
   linkType: hard
 
@@ -28160,6 +28232,7 @@ __metadata:
   dependencies:
     "@backstage/cli": "npm:^0.29.0"
     "@backstage/e2e-test-utils": "npm:^0.1.1"
+    "@backstage/plugin-catalog-backend-module-github": "npm:^0.7.7"
     "@playwright/test": "npm:^1.32.3"
     "@spotify/prettier-config": "npm:^12.0.0"
     node-gyp: "npm:^10.0.0"
@@ -28493,6 +28566,13 @@ __metadata:
     parseurl: "npm:~1.3.3"
     send: "npm:0.19.0"
   checksum: 10c0/528fff6f5e12d0c5a391229ad893910709bc51b5705962b09404a1d813857578149b8815f35d3ee5752f44cd378d0f31669d4b1d7e2d11f41e08283d5134bd1f
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.1
+  resolution: "set-cookie-parser@npm:2.7.1"
+  checksum: 10c0/060c198c4c92547ac15988256f445eae523f57f2ceefeccf52d30d75dedf6bff22b9c26f756bd44e8e560d44ff4ab2130b178bd2e52ef5571bf7be3bd7632d9a
   languageName: node
   linkType: hard
 
@@ -29838,6 +29918,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"text-encoding@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "text-encoding@npm:0.7.0"
+  checksum: 10c0/6c20f5d19f996501677cc60b79bc4af550f840b426eacc5f67bd2bd5a7a7a058ab58679f851e0afee879aaaaf7fdb95cfe4de35ab29f9b34f9ce2a7b8de9bacb
+  languageName: node
+  linkType: hard
+
 "text-hex@npm:1.0.x":
   version: 1.0.0
   resolution: "text-hex@npm:1.0.0"
@@ -30343,6 +30430,13 @@ __metadata:
   version: 0.0.6
   resolution: "tunnel@npm:0.0.6"
   checksum: 10c0/e27e7e896f2426c1c747325b5f54efebc1a004647d853fad892b46d64e37591ccd0b97439470795e5262b5c0748d22beb4489a04a0a448029636670bfd801b75
+  languageName: node
+  linkType: hard
+
+"turbo-stream@npm:2.4.0":
+  version: 2.4.0
+  resolution: "turbo-stream@npm:2.4.0"
+  checksum: 10c0/e68b2569f1f16e6e9633d090c6024b2ae9f0e97bfeacb572451ca3732e120ebbb546f3bc4afc717c46cb57b5aea6104e04ef497f9912eef6a7641e809518e98a
   languageName: node
   linkType: hard
 

@@ -36,6 +36,8 @@ backend.add(import('@backstage/plugin-permission-backend'));
 backend.add(
   import('@backstage/plugin-permission-backend-module-allow-all-policy'),
 );
+backend.add(import('@backstage/plugin-auth-backend-module-github-provider'));
+backend.add(import('@backstage/plugin-catalog-backend-module-github'));
 
 // search plugin
 backend.add(import('@backstage/plugin-search-backend'));
@@ -47,6 +49,7 @@ backend.add(import('@backstage/plugin-search-backend-module-pg'));
 // search collators
 backend.add(import('@backstage/plugin-search-backend-module-catalog'));
 backend.add(import('@backstage/plugin-search-backend-module-techdocs'));
+backend.add(import('@backstage/plugin-scaffolder-backend-module-github'));
 
 // kubernetes
 backend.add(import('@backstage/plugin-kubernetes-backend'));
